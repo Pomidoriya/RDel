@@ -1,10 +1,9 @@
-#include "MyForm.h"
+#include "MyForm1.h"
 #include <Windows.h>
 using namespace Rdel; // Название проекта
-int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) 
-{
+int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Application::Run(gcnew MyForm);
+	Application::Run(gcnew MyForm1);
 	return 0;
 }
